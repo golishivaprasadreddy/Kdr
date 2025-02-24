@@ -9,7 +9,7 @@ const Navigation = () => {
           {/* <Link to="/" className="text-xl font-bold text-primary">WELCOME</Link> */}
           <div className="flex space-x-8">
             <Link to="/" className="text-sm text-gray-300 hover:text-white transition-colors">HOME</Link>
-            <Link to="/projects" className="text-sm text-gray-300 hover:text-white transition-colors">PROJECTS</Link>
+            {/* <Link to="/projects" className="text-sm text-gray-300 hover:text-white transition-colors">PROJECTS</Link> */}
           </div>
         </div>
       </div>

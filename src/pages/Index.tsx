@@ -40,7 +40,7 @@ const Index = () => {
             >
               <h1 className="text-5xl font-bold text-white">{personalInfo.name}</h1>
               <p className="text-gray-400 text-lg">{personalInfo.role}</p>
-              <p className="text-gray-400 text-md">| {personalInfo.bio} |</p>
+              <p className="text-gray-400 text-md"> {personalInfo.bio} </p>
             </motion.div>
           </div>
 
