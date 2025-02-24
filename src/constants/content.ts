@@ -19,15 +19,18 @@ export const experiences = [
     title: "Test Engineer",
     company: "HCL Technologies",
     period: "May 2022 - Present",
-    description: "Worked on testing web applications using Selenium with Java, performing functional, integration, and regression testing. Managed test cases in Zephyr, tracked defects, and collaborated in Agile teams. Experienced in Qlik Sense, Cognos Analytics, and Azure GIT."
+    description: "Worked on testing web applications using Selenium with Java, performing functional, integration, and regression testing. Managed test cases in Zephyr, tracked defects, and collaborated in Agile teams. Experienced in Qlik Sense, Cognos Analytics, and Azure GIT.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/HCLTech_logo.svg"
   },
   {
     title: "Business Process Associate",
     company: "Accenture Solutions",
     period: "Dec 2020 - May 2022",
-    description: "Performed end-to-end testing on Uber Eats application, including functional and regression testing on web and mobile platforms. Managed test cases using OCTANE and JIRA, and performed defect triaging and requirement clarifications."
+    description: "Performed end-to-end testing on Uber Eats application, including functional and regression testing on web and mobile platforms. Managed test cases using OCTANE and JIRA, and performed defect triaging and requirement clarifications.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Accenture.svg"
   }
 ];
+
 
 export const skills = {
   Technical: [
@@ -53,10 +56,29 @@ export const skills = {
 };
 
 export const certifications = [
-  { name: "AWS Cloud Practitioner", organization: "AWS" },
-  { name: "Azure DP-203 Data Engineering & AZ-900", organization: "Microsoft" },
-  { name: "SAG WebMethods Integration Associate", organization: "Software AG" }
+  {
+    name: "AWS Cloud Practitioner",
+    organization: "AWS",
+    image: "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+  },
+  {
+    name: "Azure Data Engineer Associate (DP-203)",
+    organization: "Microsoft",
+    image: "https://tse4.mm.bing.net/th?id=OIP.h4Uzk9fiRC7wa3RmFUdsmQHaEK&pid=Api&P=0&h=180"
+  },
+  {
+    name: "Azure Fundamentals (AZ-900)",
+    organization: "Microsoft",
+    image: "https://k21academy.com/wp-content/uploads/2020/02/Azure.Fundamental_Icon.png"
+  },
+  {
+    name: "webMethods Integration Associate",
+    organization: "Software AG",
+    image: "https://images.credly.com/images/1575b5e1-4d90-4427-8073-4f0f9affe758/twitter_thumb_201604_SAG_wM_Integration_Associate_Certification_Apr21.png"
+  }
 ];
+
+
 export const projects = [
   {
     title: "Test Automation Dashboard",
