@@ -26,7 +26,7 @@ const Index = () => {
           <div className="w-60 h-60 rounded-full bg-gray-800 overflow-hidden">
             <img
               src="/profile1.jpg"
-              alt="Profile"   
+              alt="Profile"    
               className="w-full h-full object-cover"
             />
           </div>
@@ -71,28 +71,36 @@ const Index = () => {
 
       {/* Experience Section */}
       <section className="mb-20">
-        <h2 className="section-title">EXPERIENCE</h2>
-        <div className="relative pl-10">
-          <div className="timeline-line" />
-          {experiences.map((exp, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className="mb-12 relative"
-            >
-              <div className="timeline-dot" />
-              <div className="glass-card p-6">
-                <h3 className="text-lg font-semibold text-white">{exp.title}</h3>
-                <p className="text-primary mb-2">{exp.company}</p>
-                <p className="text-sm text-gray-500 mb-4">{exp.period}</p>
-                <p className="text-gray-400">{exp.description}</p>
-              </div>
-            </motion.div>
-          ))}
+  <h2 className="section-title text-center">EXPERIENCE</h2>
+  <div className="relative pl-10 lg:pl-16">
+    <div className="timeline-line" />
+    {experiences.map((exp, index) => (
+      <motion.div
+        key={index}
+        initial={{ opacity: 0, x: -20 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ delay: index * 0.1 }}
+        className="mb-12 relative flex flex-col lg:flex-row lg:items-center"
+      >
+        <div className="timeline-dot" />
+        <div className="glass-card p-6 w-full lg:w-3/4 flex flex-col lg:flex-row lg:items-center">
+          <img
+            src={exp.image}
+            alt={`${exp.company} Logo`}
+            className="w-16 h-16 object-contain mb-4 lg:mb-0 lg:mr-6"
+          />
+          <div>
+            <h3 className="text-lg font-semibold text-white">{exp.title}</h3>
+            <p className="text-primary mb-2">{exp.company}</p>
+            <p className="text-sm text-gray-500 mb-4">{exp.period}</p>
+            <p className="text-gray-400">{exp.description}</p>
+          </div>
         </div>
-      </section>
+      </motion.div>
+    ))}
+  </div>
+</section>
+
 
       {/* Skills Section */}
       <section className="mb-20">

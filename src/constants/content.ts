@@ -19,17 +19,18 @@ export const experiences = [
     title: "Test Engineer",
     company: "HCL Technologies",
     period: "May 2022 - Present",
-    description: "Worked on testing web applications using Selenium with Java, performing functional, integration, and regression testing. Managed test cases in Zephyr, tracked defects, and collaborated in Agile teams. Experienced in Qlik Sense, Cognos Analytics, and Azure GIT.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/HCLTech_logo.svg"
+    description: "Working as a Test Engineer on business intelligence and analytics applications, primarily Qlik Sense and Cognos. Responsible for designing and executing automation test cases using Selenium with Java to ensure the quality and reliability of web applications. Conducting functional, integration, regression, and automation testing to validate system functionality and business workflows. Collaborating in Agile teams, participating in sprint planning, backlog refinement meetings, and daily stand-ups. Managing test cases in Zephyr, tracking and logging defects, and working closely with developers for quick resolution. Handling source code management by creating and merging branches in the Azure GIT repository. Performing sanity checks in the production environment to ensure stability post-deployment. Creating detailed test execution reports and documenting progress on Confluence pages. Certified in AWS Cloud, Azure Data Engineering, and SAG Web Methods Integration.",
+    image: "https://logodix.com/logo/1193651.jpg"
   },
   {
     title: "Business Process Associate",
     company: "Accenture Solutions",
     period: "Dec 2020 - May 2022",
-    description: "Performed end-to-end testing on Uber Eats application, including functional and regression testing on web and mobile platforms. Managed test cases using OCTANE and JIRA, and performed defect triaging and requirement clarifications.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Accenture.svg"
+    description: "Worked on Uber Eats platform, conducting end-to-end testing on both web and mobile applications (iOS and Android). Created and updated test design documents based on JIRA requirements and business requirement documents (BRD). Performed functional, integration, and regression testing, ensuring smooth food ordering and delivery experiences. Responsible for defect tracking, logging, and triaging in OCTANE while coordinating with developers for issue resolution. Participated in client discussions, defect triage calls, and requirement clarification meetings. Created sprint releases in OCTANE and linked them to JIRA and Confluence. Prepared detailed test execution reports, including daily status reports (DSR) and weekly status reports (WSR) for project deliverables. Actively involved in retrospective meetings to improve testing strategies and process efficiency.",
+    image: "https://tse3.mm.bing.net/th?id=OIP.Pe3dCblpXMT7R4Z3MZh4CQHaFj&pid=Api&P=0&h=180"
   }
 ];
+
 
 
 export const skills = {
