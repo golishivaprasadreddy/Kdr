@@ -6,7 +6,7 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-
+https://github.com/golishivaprasadreddy/Kdr.git
 
 # Step 2: Navigate to the project directory.
 cd Portfolio
