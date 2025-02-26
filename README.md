@@ -23,7 +23,6 @@ npm run dev
 This project is built with .
 
 - TypeScript
-- React
-- shadcn-ui
+- React.js
 - Tailwind CSS
 
