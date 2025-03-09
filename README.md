@@ -26,4 +26,3 @@ This project is built with .
 - TypeScript
 - React.js
 - Tailwind CSS
-
